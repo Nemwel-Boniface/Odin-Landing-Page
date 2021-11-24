@@ -1,0 +1,166 @@
+/*Styling for the landing page first*/
+
+.landing
+{
+    background-color: #1f2937;
+    padding: 20px 100px 120px 120px;
+}
+.topnav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2
+{
+    color: #fff;
+}
+.navlinks ul
+{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 120px;
+}
+.navlinks ul li
+{
+    list-style-type: none;
+}
+.navlinks ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*landing page body*/
+.landingpage-body-left h2
+{
+    font-size: 48px;
+    font-weight: extre-bold;
+    color: #f9f8fa;
+}
+
+.landingpage-body-left p
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.landingpage-body-left a
+{
+    font-size: 18px;
+    color: #f9f8fa;
+    padding: 10px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+
+/*landing page right section*/
+.landingpage-body-right
+{
+    background-color: lightgray;
+    opacity: .5;
+    text-align: center;
+    padding: 40px;
+}
+.landingpage-body-right p
+{
+    color: #fff;
+    opacity: 1;
+
+}
+
+/*flex the landing page*/
+.landingpage-body
+{
+    display: flex;
+}
+
+
+/*Random information section*/
+
+.random-info
+{
+    margin: 80px 120px 80px 120px;
+}
+.randominfo-header h2
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 0 0 40px 0;
+}
+
+.randominfo-body
+{
+    display: flex;
+    gap: 30px;
+}
+.info div
+{
+    border: 4px solid #3882f6;
+    height: 160px;
+    border-radius: 9px;
+}
+
+/*quotes section now*/
+
+.quote
+{
+    background-color: #e5e7eb;
+    margin: 100px 0 100px 0;
+}
+.thequote
+{
+    padding: 160px;
+}
+.thequote p
+{
+    text-align: center;
+}
+.thequote h2
+{
+    text-align: right;
+}
+
+
+/*The call to action section*/
+
+.calltoaction
+{
+    background-color: #3882f6;
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.calltoaction-left
+{
+    padding: 40px;
+}
+.calltoaction-right 
+{
+    padding: 80px;
+    text-align: center;
+}
+.calltoaction-right a
+{
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 9px;
+    display: block;
+    width: 160px;
+    border-radius: 8px;
+}
+
+/*Footer section now*/
+.footer
+{
+    background-color: #1f2937;
+    padding: 45px;
+}
+.footer p
+{
+    text-align: center;
+    color: #fff;
+}
+
+
